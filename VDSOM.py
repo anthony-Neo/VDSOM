@@ -81,7 +81,7 @@ if __name__ == "__main__":
     # Parameters
     grid_shape = (10, 10)
     n_steps = 6000
-    overwrite = 0
+    overwrite = 1
 
     # Data
     data = torchvision.datasets.FashionMNIST(
